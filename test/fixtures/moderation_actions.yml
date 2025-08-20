@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  community: one
+  actor_id: 1
+  target: one
+  target_type: Target
+  action_type: 1
+  reason: MyText
+  metadata: 
+
+two:
+  community: two
+  actor_id: 1
+  target: two
+  target_type: Target
+  action_type: 1
+  reason: MyText
+  metadata: 

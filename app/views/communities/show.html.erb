@@ -1,0 +1,18 @@
+<div class="container mx-auto p-4">
+  <h1 class="text-2xl font-bold mb-2"><%= @community.name %></h1>
+  <p class="text-sm text-gray-700 mb-4"><%= @community.description %></p>
+  <div class="mb-4">
+    <%= link_to t('post.new'), new_community_post_path(@community.slug), class: 'btn btn-primary' %>
+  </div>
+  <div class="grid gap-4">
+    <% @posts.each do |p| %>
+      <div class="p-4 border rounded">
+        <% if p.pinned %><span class="text-xs text-red-600 mr-2">[PIN]</span><% end %>
+        <div class="font-semibold"><%= p.title %></div>
+        <div class="text-xs text-gray-600">Karma: <%= p.score %> · <%= l(p.created_at, format: :short) %></div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+

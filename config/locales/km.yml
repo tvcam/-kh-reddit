@@ -1,0 +1,21 @@
+km:
+  hello: "សួស្តី"
+  app:
+    title: "ខេអេច-រេឌីត"
+    sign_in: "ចូលគណនី"
+    sign_up: "បង្កើតគណនី"
+    sign_out: "ចាកចេញ"
+    communities: "សហគមន៍"
+    posts: "ប្រកាស"
+    comments: "មតិយោបល់"
+  community:
+    created: "បានបង្កើតសហគមន៍"
+  post:
+    new: "បង្កើតប្រកាស"
+    created: "បានបង្កើតប្រកាស"
+    title: "ចំណងជើង"
+    body: "មាតិកា"
+    type: "ប្រភេទ"
+    media: "រូបភាព/វីដេអូ"
+    submit: "រក្សាទុក"
+
